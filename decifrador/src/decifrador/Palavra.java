@@ -4,9 +4,8 @@ class Palavra {
 	String palavra;
 	int nletra;
 
-	Palavra (String p, int n) {
+	Palavra (String p) {
 		this.palavra = p;
-		this.nletra = n;
 	}
 
 	String getPalavra() {
